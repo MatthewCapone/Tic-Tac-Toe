@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    align-content: center;
+}
+body{
+    background-image: linear-gradient(to right, purple, pink);
+}
+
+h1{
+    color: white;
+    border-color: black black black black;
+    font-size: 70px;
+    margin: 0px 0px 5px 0px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    font-size: 75px;
+    font-weight: bold;
+    color: purple;
+    justify-content: center;
+    align-items: center;  
+}
+
+.rows{
+    display: flex;
+    justify-content: center;
+}
+
+.board-piece{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15%;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px pink;
+}
+
+.board-piece:hover{
+    background-color: pink;
+}
